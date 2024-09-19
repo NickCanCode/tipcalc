@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+    background-color: #00BCE3;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+#submitButton {
+    background-color: white;
+    font-family: "SUSE", sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: #00BCE3;
+    margin: 1%;
+    padding: 1%;
+}
+
+.percButton {
+    background-color: white;
+    font-family: "SUSE", sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: #00BCE3;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 1%;
+}

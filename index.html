@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <label for="tipValue"><strong>Cost</strong></label>
+    <br>
+    <input type="text" id="tipValue">
+    <br>
+    <br>
+    <label for="tipPercent"><strong>Tip Percent</strong></label>
+    <br>
+    <input type="text" id="tipPercent">
+    <strong><p>Quick Percents:</p></strong> <button class="percButton" id="tenPerc">10%</button><button class="percButton" id="fiftPerc">15%</button><button class="percButton" id="twentPerc">20%</button><button class="percButton" id="twentyFivePerc">25%</button>
+    <p>Total Cost is: <strong>$<span id="total">...</span></strong></p>
+    <button id="submitButton" >Calculate</button>
+    <script src="script.js"></script>
+</body>
+</html>
